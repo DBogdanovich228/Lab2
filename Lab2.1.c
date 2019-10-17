@@ -6,11 +6,11 @@
 
 void main(void) {setlocale(LC_ALL,"Russian");
 int a,b,c,d;
-printf("Радиус мяча a=:");
+printf("Р Р°РґРёСѓСЃ РјСЏС‡Р° a=:");
 scanf("%d", &a);
-printf("Произведение b и c=\n");
+printf("РџСЂРѕРёР·РІРµРґРµРЅРёРµ b*c=\n");
 scanf("%d%d",&b,&c);
 d=b*c;
-if (a<=d) printf("мяч пройдёт");
-else if (a>d) printf("мяч не пройдёт");
+if (a<=d) printf("РјСЏС‡ РїСЂРѕР№РґС‘С‚");
+else if (a>d) printf("РјСЏС‡ РЅРµ РїСЂРѕР№РґС‘С‚");
 }
