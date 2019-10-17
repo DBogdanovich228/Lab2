@@ -5,12 +5,12 @@
 
 void main(void) {setlocale(LC_ALL,"Russian");
 float a,b,c;
-printf("Введите сторону a=");
+printf("Р’РІРµРґРёС‚Рµ СЃС‚РѕСЂРѕРЅСѓ a=");
 scanf("%f",&a);
-printf("Введите сторону b=");
+printf("Р’РІРµРґРёС‚Рµ СЃС‚РѕСЂРѕРЅСѓ b=");
 scanf("%f",&b);
-printf("Введите сторону c=");
+printf("Р’РІРµРґРёС‚Рµ СЃС‚РѕСЂРѕРЅСѓ c=");
 scanf("%f",&c);
-if ((a+b)>c&&(b+c)>a&&(a+c)>b)printf("существует");
-else printf("не существует");
+if ((a+b)>c&&(b+c)>a&&(a+c)>b)printf("РЎСѓС‰РµСЃС‚РІСѓРµС‚");
+else printf("РќРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚");
 }
