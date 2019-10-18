@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 	printf("Vvedite arabskuy 4ifru k =");
 	scanf("%d", &k);
 	switch(k)
-	{case 1:printf("I");break;
+	{case 1:printf("I");break;\\1
 	 case 2:printf("II");break;
 	 case 3:printf("III");break;
 	 case 4:printf("IV");break;
