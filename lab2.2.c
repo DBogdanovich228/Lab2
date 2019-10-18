@@ -3,7 +3,7 @@
 #include <locale.h>
 
 
-void main(void) {setlocale(LC_ALL,"Russian");
+void main(void) {setlocale(LC_ALL,"Russian");\\1
 float a,b,c;
 printf("Введите сторону a=");
 scanf("%f",&a);
