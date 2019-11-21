@@ -2,10 +2,10 @@
 int main(int argc, char const *argv[])
 {
 	int k;
-	printf("Vvedite arabskuy 4ifru k =");
+	printf("Vvedite arabskuy cifru k =");
 	scanf("%d", &k);
 	switch(k)
-	{case 1:printf("I");break;\\1
+	{case 1:printf("I");break;
 	 case 2:printf("II");break;
 	 case 3:printf("III");break;
 	 case 4:printf("IV");break;
